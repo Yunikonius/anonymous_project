@@ -124,7 +124,7 @@ Where t.rn = 1;
 
 
 def mart_create():
-    # тк объемы небольшие, сделал через представление
+    # сделал через представление, как вариант можно через мат представление
     client.command("""
 CREATE view if not exists cdm_cell_towers AS
 (Select distinct 
